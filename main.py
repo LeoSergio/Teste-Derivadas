@@ -10,6 +10,9 @@ a, b = -2, 2  # Intervalo [a, b]
 # Derivada da função
 f_prime = sp.diff(f, x)
 
+# Inicialização de variáveis
+crit_points = []  # Para armazenar os pontos críticos, caso existam
+
 # Verificar Teorema de Rolle
 print("Teorema de Rolle:")
 if sp.N(f.subs(x, a)) == sp.N(f.subs(x, b)):
