@@ -49,7 +49,7 @@ if c_tvm:
     c_val = c_tvm[0]
     plt.scatter([c_val], [sp.N(f.subs(x, c_val))], color='green', label="c (TVM)")
     secant_line = avg_rate * (x_vals - a) + sp.N(f.subs(x, a))
-    plt.plot(x_vals, secant_line, linestyle='--', color='purple', label='Secante (TVM)")
+    plt.plot(x_vals, secant_line, linestyle='--', color='purple', label='Secante (TVM)')
 
 plt.legend()
 plt.title("Teoremas de Rolle e Valor Médio")
