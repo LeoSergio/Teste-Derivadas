@@ -1,6 +1,6 @@
 import sympy as sp
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # Biblioteca que mostra o gráfico
 
 # Definição da função e intervalo diretamente no código
 x = sp.symbols('x')
