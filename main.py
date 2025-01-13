@@ -60,3 +60,6 @@ plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.grid(True)
 plt.show()
+
+#refazer o video
+#explicando melhor
